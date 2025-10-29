@@ -1,8 +1,4 @@
-body{
-  background-image: url("../images/black.jpg");
-}
-
-header1{
+#header1{
   background: #000000;
   color: white;
   text-align: center;
