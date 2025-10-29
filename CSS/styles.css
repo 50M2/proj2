@@ -7,85 +7,24 @@ body {
     line-height: 1.6;
 }
 
-#body-s {
-  font-family: 'Nunito', sans-serif;
-  background-image: url("../Images/bee.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  line-height: 1.6;
-  color: #333333;
+#nav-horizontal {
+  text-align: center; 
+  background: yellow; 
+  padding: 1rem ;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-#page-wrapper1 {
-  width: 960px;
-  margin: 0 auto;
-  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
-  border-radius: 12px 12px 0px 0px;
-  padding : 20px;
-  background-color: yellow;
+#nav-horizontal li {
+  display: inline;
+  list-style: none;
+  margin: 0 1rem;
 }
+  
 
-#page-wrapper2 {
-  width: 960px;
-  margin: 0 auto;
-  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
-  border-radius: 12px 12px 0px 0px;
-  padding : 20px;
-  background-color: yellow;
-}
 
-#page-wrapper3 {
-  width: 960px;
-  margin: auto;
-  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
-  border-radius: 12px 12px 0px 0px;
-  padding : 20px;
-  background-color: yellow;
-}
 
-#box-h { 
-background-color: #000000;
-border: 3rem soild black;
-padding: 5rem;
-width: auto;
-height: auto;
-margin-left: auto;
-margin-right: auto;
-margin-top: 2rem;
-margin-bottom: 2rem;
-}
-
-#box-r { 
-background-color: #000000;
-border: 2rem soild black;
-padding: 1rem;
-width: auto;
-height: auto;
-margin-left: auto;
-margin-right: auto;
-margin-top: 2rem;
-margin-bottom: 2rem;
-}
-
-#box-s { 
-background-color: #000000;
-border: 2rem soild black;
-padding: 1rem;
-width: auto;
-height: auto;
-margin-left: auto;
-margin-right: auto;
-margin-top: 2rem;
-margin-bottom: 2rem;
-}
-
-#header1 {
-  color: yellow;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 
 footer {
   text-align: center;
@@ -93,172 +32,4 @@ footer {
   background-color: #000000;
   color: yellow;
   margin-top: 4em;
-}
-
-#section1 { 
-  background-color: black;
-  color: yellow;
-  text-align: center;
-  border: 1rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section2 { 
-  background-color: black;
-  color: yellow;
-  text-align: center;
-  border: 1rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#header2 {
-  color: yellow;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-#header3 {
-  color: yellow;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-#section3 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section4 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section5 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section6 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section7 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section8 { 
-  background-color: black;
-  color: yellow;
-  text-align: left;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section9 { 
-  background-color: black;
-  color: yellow;
-  text-align: center;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section10 { 
-  background-color: black;
-  color: yellow;
-  text-align: center;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#section11 { 
-  background-color: black;
-  color: yellow;
-  text-align: center;
-  border: 2rem soild black;
-  padding: 1rem;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
